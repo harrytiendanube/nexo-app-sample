@@ -1,0 +1,22 @@
+{
+  "name": "nexo-app-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon ./api/index.js",
+    "start": "node ./api/index.js",
+    "start:db": "json-server --watch ./api/db.json --port 3201"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "json-server": "^0.17.0",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
