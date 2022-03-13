@@ -38,7 +38,7 @@ function Main() {
     }
 
     const handleGetPrivateInfo = async () => {
-        const { data } = await axios.get('/private');
+        const { data } = await axios.get('/secret');
         setPrivateInfo(data);
     }
 

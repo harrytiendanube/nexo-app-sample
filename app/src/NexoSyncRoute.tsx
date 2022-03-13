@@ -14,4 +14,4 @@ function NexoSyncRoute({ children }: { children: JSX.Element }) {
     return children
 }
 
-export default NexoSyncRoute
+export default NexoSyncRoute;
